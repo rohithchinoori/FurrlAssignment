@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  .product-page {
+    font-family: "Montserrat";
+  }
+  .banner {
+    height: 200px;
+    width: 100vw;
+  }
+  .product-head {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .head-sp {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .product-page {
+    font-family: "Montserrat";
+  }
+  .banner {
+    height: 400px;
+    width: 1000px;
+  }
+  .banner-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-head {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .head-sp {
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    margin-left: 10px;
+  }
+}

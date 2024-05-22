@@ -1,0 +1,209 @@
+@media (max-width: 768px) {
+  p {
+    margin: 0px;
+  }
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .product-image {
+    height: 150px;
+    width: 250px;
+    display: block;
+  }
+  .price-cont {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+  }
+  .title {
+    font-size: 14px;
+    color: gray;
+  }
+  .price {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+  }
+  .mrp {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: gray;
+  }
+  .discount {
+    color: blue;
+  }
+  .share {
+    border-width: 0px;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .detail-image {
+    height: 60vh;
+    width: 100vw;
+  }
+  .detail-head {
+    font-size: 16px;
+    margin: 5px;
+  }
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+    font-family: "Montserrat";
+  }
+  .d-price-cont {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 5px;
+  }
+  .d-price {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+  }
+  .d-mrp {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: gray;
+  }
+  .d-discount {
+    color: green;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    width: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .bag-but {
+    background-color: #736ef1;
+    color: #fff;
+    border-radius: 6px;
+    border-width: 0px;
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-image {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 0px;
+  }
+  .price-cont {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+  }
+  .title {
+    font-size: 18px;
+    color: gray;
+    margin-top: 0px;
+  }
+  .price {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .mrp {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: gray;
+    margin-top: 0px;
+  }
+  .discount {
+    color: blue;
+    margin-top: 0px;
+  }
+  .share {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-width: 0px;
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .detail-image {
+    height: 60vh;
+    width: 80vw;
+  }
+  .detail-head {
+    font-size: 16px;
+    margin: 5px;
+  }
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+    font-family: "Montserrat";
+  }
+  .d-price-cont {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 5px;
+  }
+  .d-price {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+  }
+  .d-mrp {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: gray;
+  }
+  .d-discount {
+    color: green;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    width: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .bag-but {
+    background-color: #736ef1;
+    color: #fff;
+    border-radius: 6px;
+    border-width: 0px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    align-self: center;
+    cursor: pointer;
+  }
+}
